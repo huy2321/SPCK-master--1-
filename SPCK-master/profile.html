@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="profile.css">
+</head>
+
+<body>
+  <div class="header">
+    <img src="images/icon.png" alt="">
+    <button id="index" class="home">Home</button>
+    <div class="dropdown">
+      <div class="imgindexx">
+        <a href="profile.html"> <img src="" alt="Avatar" id="imageindex"></a>
+      </div>
+      <div class="dropdown-content">
+        <span id="welcome-text">chao mung </span>
+        <button id="change-password"> Change password</button>
+        <button id="logout"> Logout</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="boddy">
+    <div class="profile">
+      <img src="" alt="Avatar" id="image" style="border-radius: 50%;
+        border:1px solid #a1a1a1;
+        height: 200px;
+        width: 200px;">
+      <div class="name">
+        <p id="fullname"></p>
+      </div>
+      <a href="profile-edit.html"><button class="buton">Edit Profile</button></a>
+    </div>
+
+  </div>
+
+
+
+
+
+
+  <script type="module" src="firebase/narbar.js"></script>
+  <script type="module" src="./firebase/profile.js"></script>
+</body>
+
+</html>
